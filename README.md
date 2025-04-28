@@ -1,4 +1,8 @@
-# 👁️ Future Eye Experience
+# WEBSITE
+
+---
+
+## 👁️ Future Eye Experience
 
 **Future Eye Experience** is a next-generation web application that reimagines how we interact with reality using **Smart AR Lenses**. This project fuses cutting-edge technologies — **React, TypeScript, Tailwind CSS** — to deliver an immersive, futuristic, and highly interactive experience.
 
@@ -115,24 +119,100 @@ Feel free to build upon and enhance this project!
 
 ---
 
-## 👥 Developed By
+# REPORT
 
-**Krishna Dwivedi | Raj Humraskar | Anish Kumar | Arin Choubey**  
+## 📚 Project Overview
+
+Augmented Reality lenses superimpose **interactive digital content** onto the real world, unlike Virtual Reality, which creates isolated experiences.  
+AR lenses offer **hands-free, immersive, real-time interactions** with surroundings — transforming industries like **healthcare, education, retail, gaming, and industrial work**.
+
+**Leading companies** (Apple, Google, Microsoft) have already shown early prototypes. Our project goes a step further by addressing **control systems, data processing, energy harvesting**, and **intuitive eye-based interactions**.
+
+---
+
+## ✨ Key Contributions
+
+- Ultra-thin **Micro-LED/OLED displays** integrated into flexible, biocompatible lenses.
+- **Eye tracking & blink recognition** for seamless control without external devices.
+- **Energy harvesting** and **microbatteries** for long-term wear without bulky systems.
+- **Edge AI processing** for real-time AR rendering and decision-making.
+- **Wireless communication** via **BLE** and **NFC** for smooth device interaction.
+- Full system integration combining **display, control, and AI** — not just isolated features.
 
 ---
 
-# 🔥 "Smart AR Lenses – The Future is No Longer a Vision. It's in Your Eyes." 🔥
-```
+## 🔍 Literature Review
+
+| Contributor         | Contribution Area                                  |
+|----------------------|----------------------------------------------------|
+| **Krishna Dwivedi**  | Material Research & Lens Design                   |
+| **Raj Humraskar**    | Electronics Integration & Power Optimization      |
+| **Anish Kumar**      | Software, AR Interface, and AI-based Interaction   |
+| **Arin Choubey**     | System Integration, Testing, Validation           |
+
+Each team member played a vital role in building a **functional, safe, and innovative prototype**.
 
 ---
 
-### 📢 What's Improved:
-- Cleaner **section divisions** with emojis 🚀  
-- Proper **tables** and **bulleted features** ✨  
-- More **emotional connection** at the end 🔥  
-- Easily skimmable for viewers on GitHub 📖  
+## 🕵️ Research Gap & Novelty
+
+Existing patents focus mainly on **hardware displays** or **external controls** without seamless real-time AR experiences.  
+Our solution:
+- Combines **real-time AR display** with **intuitive control** via **eye gestures**.
+- Provides **instant processing** and **adaptive AI personalization**.
+- Enables **hands-free external device control** directly from the lens.
 
 ---
-  
-If you want, I can also help you generate a **cool banner** for the top of your GitHub repo to make it look even more professional! 🎨🚀  
-Would you like that too? 🎬
+
+## 🛠️ Methodology (Step-by-Step)
+
+1. **Research & Requirement Analysis:**  
+   - Studied latest wearables, AR systems, and ocular health standards.
+
+2. **Material Selection & Fabrication:**  
+   - Developed prototypes using biocompatible, transparent materials.
+
+3. **Circuit Design & Power Management:**  
+   - Designed low-heat, low-power circuits; implemented energy harvesting.
+
+4. **Software Integration:**  
+   - Built gesture-recognition AI and real-time cloud-assisted AR interfaces.
+
+5. **Testing & Validation:**  
+   - Conducted lab tests, user trials, and regulatory compliance checks.
+
+6. **Deployment Strategy:**  
+   - Scaling production, preparing commercialization, and future AI upgrades.
+
+---
+
+## 📈 Discussion & Results
+
+- Successfully integrated **high-resolution micro-LED displays** without impairing vision.
+- Achieved **gesture-based AR control** with **minimal latency**.
+- Optimized **power management**, enabling **longer battery life** under real-world conditions.
+- Verified **secure wireless connectivity** (BLE, NFC) for real-time operation.
+- Identified areas for improvement (comfort during prolonged wear, advanced battery optimization).
+
+---
+
+## 🌟 Future Scope
+
+- **5G Integration** for real-time cloud AR processing.
+- **Advanced AI personalization** for dynamic AR overlays.
+- **Haptic Feedback** inside lenses for deeper interaction.
+- **Expanded health monitoring** capabilities (hydration, pressure, glucose).
+- **Continuous optimization** for comfort, safety, and user experience.
+
+---
+
+## 📚 References
+
+- Lee, S. H., Kim, H., & Park, J. (2022). *Advancements in Smart Contact Lenses: Display and Biosensing Capabilities.*
+- Smith, R., & Johnson, M. (2021). *Augmented Reality in Wearables: Emerging Trends.*
+- Wang, Y., & Chen, Z. (2020). *Power Management for Miniaturized Wearables.*
+- Patel, K., & Gupta, R. (2019). *Eye-Tracking and Gesture Recognition for AR.*
+- WHO Publications (2023). *Safety Standards for Medical Wearables.*
+
+---
+
