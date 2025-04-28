@@ -73,6 +73,8 @@ Smart AR Contact Lenses are designed to make this vision a reality by integratin
 
 **This is a sample website which showcase the details of the AR Lens, different products and its working.**
 
+<img src="./images/ARWEBSITE.png" width="300px">
+
 ## 👁️ Future Eye Experience
 
 **Future Eye Experience** is a next-generation web application that reimagines how we interact with reality using **Smart AR Lenses**. This project fuses cutting-edge technologies — **React, TypeScript, Tailwind CSS** — to deliver an immersive, futuristic, and highly interactive experience.
