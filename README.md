@@ -4,7 +4,7 @@
 Welcome to the **Smart AR Contact Lenses** project!  
 This project is an innovative exploration into the future of wearable technology — blending **Augmented Reality (AR)** directly into **biocompatible smart contact lenses**. Our aim is to redefine how humans interact with the digital and real worlds simultaneously.
 
-<img src="./images/ARLENSDEMO.png" width="200px">
+<img src="./images/ARLENSDEMO.png" width="300px">
 ---
 
 ## 🚀 Project Vision
@@ -65,9 +65,6 @@ Smart AR Contact Lenses are designed to make this vision a reality by integratin
 
 
 ---
-
-# 🔥 "Smart AR Lenses – Redefining How We See the World." 🔥
-
 
 
 # WEBSITE
@@ -213,6 +210,7 @@ AR lenses offer **hands-free, immersive, real-time interactions** with surroundi
 - **Wireless communication** via **BLE** and **NFC** for smooth device interaction.
 - Full system integration combining **display, control, and AI** — not just isolated features.
 
+<img src="./images/COMPONENTS.png" width="300px">
 ---
 
 ## 🔍 Literature Review
