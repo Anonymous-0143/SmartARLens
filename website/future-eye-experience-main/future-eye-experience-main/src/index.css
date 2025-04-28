@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@layer base {
+  :root {
+    --background: 217 33% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 33% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 33% 7%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 196 75% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20.2% 75%;
+
+    --accent: 196 75% 55%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 196 75% 50%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 217 33% 7%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 196 75% 50%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 196 75% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-800 text-foreground font-sans;
+  }
+
+  h1, h2, h3 {
+    @apply font-display tracking-wider;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 shadow-glass;
+  }
+  
+  .neon-border {
+    @apply border border-neon-blue shadow-neon;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-width {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-neon-blue text-white rounded-md shadow-neon transition-all hover:shadow-neon-hover font-medium;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border border-neon-blue text-neon-blue rounded-md transition-all hover:bg-neon-blue/10 font-medium;
+  }
+  
+  .grid-bg {
+    @apply bg-grid-pattern bg-[size:30px_30px];
+  }
+  
+  .nav-link {
+    @apply relative text-gray-300 hover:text-white transition-colors duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-neon-blue after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 174, 219, 0.5);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 174, 219, 0.8);
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
